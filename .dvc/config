@@ -1,0 +1,6 @@
+[core]
+    remote = myremote1
+['remote "myremote"']
+    url = s3://mybucket/dvc-storage
+['remote "myremote1"']
+    url = s3://testing-inaam/data
